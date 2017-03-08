@@ -26,7 +26,7 @@
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
                       <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -34,7 +34,7 @@
                       <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="47" max="32767" attributes="0"/>
+              <EmptySpace pref="18" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -56,9 +56,9 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jTabbedPane1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" min="-2" pref="918" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -97,50 +97,51 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                                      <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="usernameSign" max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jLabel16" min="-2" pref="766" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="335" max="-2" attributes="0"/>
-                                      <Component id="btnSignUp" min="-2" pref="115" max="-2" attributes="0"/>
-                                  </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="397" max="-2" attributes="0"/>
+                                  <Component id="btnSignUp" min="-2" pref="115" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                                  <Component id="jLabel16" min="-2" pref="766" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace pref="20" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="usernameSign" min="-2" pref="671" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jPanel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="19" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                           <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel30" linkSize="16" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="usernameSign" linkSize="16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="usernameSign" linkSize="16" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel30" linkSize="16" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jLabel29" linkSize="16" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jPanel6" max="32767" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="btnSignUp" min="-2" pref="48" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel6" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Component id="btnSignUp" min="-2" pref="48" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -172,11 +173,11 @@
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                              <Component id="jPanel8" linkSize="5" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="33" max="32767" attributes="0"/>
-                              <Component id="jPanel7" linkSize="5" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel8" linkSize="27" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jPanel7" linkSize="27" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -185,10 +186,10 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jPanel8" max="32767" attributes="0"/>
-                                  <Component id="jPanel7" max="32767" attributes="0"/>
+                                  <Component id="jPanel8" linkSize="28" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPanel7" linkSize="28" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace pref="23" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -209,46 +210,62 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel12" alignment="0" pref="303" max="32767" attributes="0"/>
+                                      <Component id="jLabel12" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Component id="jLabel38" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel39" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel40" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel41" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel37" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                  </Group>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel41" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Component id="txtCMiddleCon" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtCForeSign" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtCForeCon" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtCThumbSign" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtCThumbCon" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
-                                                  </Group>
+                                                  <Component id="txtCThumbCon" max="32767" attributes="0"/>
                                               </Group>
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Component id="jLabel13" linkSize="13" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel10" linkSize="13" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel11" linkSize="13" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel14" linkSize="13" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel15" linkSize="13" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                  </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel40" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Component id="txtCLittleSign" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtCLittleCon" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtCRingSign" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtCRingCon" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtCMiddleSign" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
-                                                  </Group>
+                                                  <Component id="txtCThumbSign" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel39" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtCForeCon" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel38" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtCForeSign" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel37" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtCMiddleCon" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel14" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtCMiddleSign" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel11" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtCRingCon" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel10" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtCRingSign" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel13" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtCLittleCon" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel15" linkSize="13" min="-2" pref="174" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtCLittleSign" min="-2" pref="100" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="76" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -287,30 +304,30 @@
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtCMiddleCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel37" linkSize="14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtCMiddleCon" linkSize="14" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtCForeSign" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel38" linkSize="14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtCForeSign" linkSize="14" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtCForeCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel39" linkSize="14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtCForeCon" linkSize="14" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtCThumbSign" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel40" linkSize="14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtCThumbSign" linkSize="14" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel41" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtCThumbCon" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel41" linkSize="14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtCThumbCon" linkSize="14" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <EmptySpace pref="83" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -321,30 +338,15 @@
                             <Property name="text" type="java.lang.String" value="Ring finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCLittleSign">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCLittleSignActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel11">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Confirm Ring finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCRingSign">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCRingSignActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel12">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Circumference at the bottom of the,"/>
                           </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtCRingCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCRingConFocusLost"/>
-                          </Events>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel13">
                           <Properties>
@@ -356,17 +358,10 @@
                             <Property name="text" type="java.lang.String" value="Middle finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCLittleCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCLittleConFocusLost"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel15">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Little finger:"/>
                           </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtCMiddleSign">
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel37">
                           <Properties>
@@ -385,7 +380,7 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel40">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Fore finger:"/>
+                            <Property name="text" type="java.lang.String" value="Thumb:"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel41">
@@ -393,26 +388,25 @@
                             <Property name="text" type="java.lang.String" value="Confirm Thumb:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCThumbCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCThumbConFocusLost"/>
-                          </Events>
+                        <Component class="javax.swing.JPasswordField" name="txtCLittleSign">
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCThumbSign">
+                        <Component class="javax.swing.JPasswordField" name="txtCLittleCon">
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCForeCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCForeConFocusLost"/>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCForeConActionPerformed"/>
-                          </Events>
+                        <Component class="javax.swing.JPasswordField" name="txtCRingSign">
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCForeSign">
+                        <Component class="javax.swing.JPasswordField" name="txtCRingCon">
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCMiddleCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCMiddleConFocusLost"/>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCMiddleConActionPerformed"/>
-                          </Events>
+                        <Component class="javax.swing.JPasswordField" name="txtCMiddleSign">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCMiddleCon">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCForeSign">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCForeCon">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCThumbSign">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCThumbCon">
                         </Component>
                       </SubComponents>
                     </Container>
@@ -430,46 +424,13 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel25" max="32767" attributes="0"/>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace min="0" pref="51" max="32767" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Component id="jLabel23" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel24" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                      <Component id="jLabel27" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Component id="txtLRingSign" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtLRingCon" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtLMiddleSign" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                                      <Component id="jLabel33" alignment="0" pref="174" max="32767" attributes="0"/>
-                                                      <Component id="jLabel34" alignment="0" pref="174" max="32767" attributes="0"/>
-                                                      <Component id="jLabel35" alignment="0" pref="174" max="32767" attributes="0"/>
-                                                      <Component id="jLabel36" alignment="0" pref="174" max="32767" attributes="0"/>
-                                                      <Component id="jLabel32" alignment="0" max="32767" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Component id="txtLMiddleCon" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtLForeSign" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtLForeCon" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtLThumbSign" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="txtLThumbCon" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <Component id="jPanel10" alignment="1" max="32767" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                  </Group>
+                                  <Component id="jLabel25" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -479,153 +440,49 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLRingSign" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLRingCon" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLMiddleSign" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLMiddleCon" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLForeSign" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLForeCon" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLThumbSign" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel36" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLThumbCon" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="64" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
                       </Layout>
                       <SubComponents>
-                        <Component class="javax.swing.JLabel" name="jLabel23">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Ring finger:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel24">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Confirm Ring finger:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtLRingSign">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLRingSignActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel25">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Length of the,"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtLRingCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLRingConFocusLost"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel27">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Middle finger:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtLMiddleSign">
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel32">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Confirm Middle finger:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel33">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Fore finger:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel34">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Confirm Fore finger:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel35">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Thumb:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="jLabel36">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Confirm Thumb:"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtLThumbCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLThumbConFocusLost"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtLThumbSign">
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtLForeCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLForeConFocusLost"/>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLForeConActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtLForeSign">
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtLMiddleCon">
-                          <Events>
-                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLMiddleConFocusLost"/>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLMiddleConActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Container class="javax.swing.JPanel" name="jPanel10">
-                          <Properties>
-                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
-                                <BevelBorder/>
-                              </Border>
-                            </Property>
-                          </Properties>
+                        <Container class="javax.swing.JPanel" name="jPanel11">
 
                           <Layout>
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jLabel26" linkSize="12" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
                                           <Component id="jLabel28" linkSize="12" alignment="1" min="-2" pref="166" max="-2" attributes="0"/>
+                                          <Component id="jLabel32" linkSize="12" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="jLabel23" linkSize="12" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="jLabel24" linkSize="12" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="jLabel27" linkSize="12" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="jLabel33" linkSize="12" alignment="1" min="-2" pref="255" max="-2" attributes="0"/>
+                                          <Component id="jLabel34" linkSize="12" alignment="1" min="-2" pref="255" max="-2" attributes="0"/>
+                                          <Component id="jLabel35" linkSize="12" alignment="1" min="-2" pref="255" max="-2" attributes="0"/>
+                                          <Component id="jLabel36" linkSize="12" alignment="1" min="-2" pref="255" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="txtLLittleSign" max="32767" attributes="0"/>
-                                          <Component id="txtLLittleCon" max="32767" attributes="0"/>
+                                          <Component id="txtLMiddleCon" linkSize="24" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                                          <Component id="txtLLittleCon" linkSize="24" alignment="0" min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Component id="txtLLittleSign" linkSize="24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLThumbCon" linkSize="24" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                          <Component id="txtLMiddleSign" linkSize="24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLForeSign" linkSize="24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLThumbSign" linkSize="24" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                          <Component id="txtLRingCon" linkSize="24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLRingSign" linkSize="24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLForeCon" linkSize="24" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
@@ -636,13 +493,53 @@
                                   <Group type="102" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jLabel28" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="txtLLittleSign" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel28" linkSize="11" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Component id="txtLLittleSign" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel26" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLLittleCon" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jLabel26" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="txtLLittleCon" linkSize="11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLRingSign" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel23" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="txtLRingCon" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel24" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel27" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLMiddleSign" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel32" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLMiddleCon" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel33" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLForeSign" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel34" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLForeCon" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel35" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLThumbSign" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel36" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtLThumbCon" linkSize="25" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                   </Group>
@@ -650,25 +547,78 @@
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Component class="javax.swing.JLabel" name="jLabel26">
+                            <Component class="javax.swing.JLabel" name="jLabel23">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Confirm Little finger:"/>
+                                <Property name="text" type="java.lang.String" value="Ring finger:"/>
                               </Properties>
+                            </Component>
+                            <Component class="javax.swing.JPasswordField" name="txtLLittleSign">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel35">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Thumb:"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JPasswordField" name="txtLMiddleCon">
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLMiddleConActionPerformed"/>
+                              </Events>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel32">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Confirm Middle finger:"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel34">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Confirm Fore finger:"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JPasswordField" name="txtLRingSign">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel33">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Fore finger:"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel36">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Confirm Thumb:"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JPasswordField" name="txtLMiddleSign">
+                            </Component>
+                            <Component class="javax.swing.JPasswordField" name="txtLLittleCon">
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel28">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="Little finger:"/>
                               </Properties>
                             </Component>
-                            <Component class="javax.swing.JTextField" name="txtLLittleCon">
-                              <Events>
-                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLLittleConFocusLost"/>
-                              </Events>
+                            <Component class="javax.swing.JPasswordField" name="txtLForeCon">
                             </Component>
-                            <Component class="javax.swing.JTextField" name="txtLLittleSign">
-                              <Events>
-                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLLittleSignActionPerformed"/>
-                              </Events>
+                            <Component class="javax.swing.JPasswordField" name="txtLThumbSign">
+                            </Component>
+                            <Component class="javax.swing.JPasswordField" name="txtLThumbCon">
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel26">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Confirm Little finger:"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel24">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Confirm Ring finger:"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel27">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="Middle finger:"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JPasswordField" name="txtLForeSign">
+                            </Component>
+                            <Component class="javax.swing.JPasswordField" name="txtLRingCon">
                             </Component>
                           </SubComponents>
                         </Container>
@@ -717,29 +667,34 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="usernameLog" min="-2" pref="672" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace min="0" pref="19" max="32767" attributes="0"/>
-                              </Group>
-                              <Component id="jLabel1" max="32767" attributes="0"/>
-                          </Group>
+                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                          <Component id="jLabel1" max="32767" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="333" max="-2" attributes="0"/>
-                          <Component id="btnLogin" min="-2" pref="112" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="usernameLog" min="-2" pref="672" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                           <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="90" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="btnLogin" min="-2" pref="112" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="377" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -757,9 +712,9 @@
                           <Component id="jLabel7" linkSize="15" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="99" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
                           <Component id="btnLogin" min="-2" pref="53" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                          <EmptySpace pref="205" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -804,7 +759,7 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jPanel1" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPanel1" linkSize="4" min="-2" pref="170" max="-2" attributes="0"/>
                                   <Component id="jPanel3" linkSize="4" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
@@ -828,24 +783,25 @@
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel9" linkSize="1" alignment="0" max="32767" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="jLabel4" linkSize="1" max="32767" attributes="0"/>
-                                              <Component id="jLabel3" linkSize="1" min="-2" max="-2" attributes="0"/>
-                                              <Component id="jLabel5" linkSize="1" alignment="1" max="32767" attributes="0"/>
-                                              <Component id="jLabel6" linkSize="1" alignment="1" max="32767" attributes="0"/>
-                                              <Component id="jLabel8" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="jLabel9" pref="307" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel8" linkSize="19" min="-2" pref="140" max="-2" attributes="0"/>
+                                              <Component id="jLabel4" linkSize="19" min="-2" pref="134" max="-2" attributes="0"/>
+                                              <Component id="jLabel3" linkSize="19" min="-2" pref="116" max="-2" attributes="0"/>
+                                              <Component id="jLabel6" linkSize="19" alignment="1" min="-2" pref="149" max="-2" attributes="0"/>
+                                              <Component id="jLabel5" linkSize="19" alignment="1" min="-2" pref="151" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="txtCLittleLog" max="32767" attributes="0"/>
-                                              <Component id="txtCRingLog" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtCMiddleLog" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtCForeLog" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtCThumbLog" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="txtCThumbLog" linkSize="20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtCForeLog" linkSize="20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtCMiddleLog" linkSize="20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtCRingLog" linkSize="20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtCLittleLog" linkSize="20" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
                                           </Group>
+                                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -878,9 +834,9 @@
                                       <Component id="txtCForeLog" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel8" linkSize="2" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtCThumbLog" linkSize="2" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel8" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtCThumbLog" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
@@ -893,27 +849,15 @@
                             <Property name="text" type="java.lang.String" value="Middle finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCLittleLog">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCLittleLogActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel6">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Fore finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCMiddleLog">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCMiddleLogActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel9">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Circumference at the bottom of the,"/>
                           </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtCForeLog">
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel4">
                           <Properties>
@@ -925,14 +869,20 @@
                             <Property name="text" type="java.lang.String" value="Thumb:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCRingLog">
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel3">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Little finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtCThumbLog">
+                        <Component class="javax.swing.JPasswordField" name="txtCLittleLog">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCThumbLog">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCForeLog">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCMiddleLog">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtCRingLog">
                         </Component>
                       </SubComponents>
                     </Container>
@@ -951,23 +901,26 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel19" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel19" max="32767" attributes="0"/>
+                                          <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                      </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="1" attributes="0">
-                                              <Component id="jLabel20" alignment="1" max="32767" attributes="0"/>
-                                              <Component id="jLabel17" alignment="1" pref="178" max="32767" attributes="0"/>
-                                              <Component id="jLabel18" alignment="1" max="32767" attributes="0"/>
-                                              <Component id="jLabel21" alignment="1" max="32767" attributes="0"/>
-                                              <Component id="jLabel22" alignment="0" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel22" linkSize="17" alignment="1" min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Component id="jLabel20" linkSize="17" alignment="1" min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Component id="jLabel17" linkSize="17" alignment="1" min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Component id="jLabel18" linkSize="17" alignment="1" min="-2" pref="141" max="-2" attributes="0"/>
+                                              <Component id="jLabel21" linkSize="17" alignment="1" min="-2" pref="61" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="txtLLittleLog" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtLRingLog" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtLMiddleLog" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtLForeLog" alignment="0" max="32767" attributes="0"/>
-                                              <Component id="txtLThumbLog" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                                          <EmptySpace pref="12" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="txtLThumbLog" linkSize="18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtLForeLog" linkSize="18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtLMiddleLog" linkSize="18" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtLRingLog" linkSize="18" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
+                                              <Component id="txtLLittleLog" linkSize="18" alignment="0" min="-2" pref="107" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
@@ -1001,9 +954,9 @@
                                       <Component id="txtLForeLog" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel21" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txtLThumbLog" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel21" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtLThumbLog" linkSize="7" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
@@ -1016,27 +969,15 @@
                             <Property name="text" type="java.lang.String" value="Middle finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtLLittleLog">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLLittleLogActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel18">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Fore finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtLMiddleLog">
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLMiddleLogActionPerformed"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel19">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Length of the,"/>
                           </Properties>
-                        </Component>
-                        <Component class="javax.swing.JTextField" name="txtLForeLog">
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel20">
                           <Properties>
@@ -1048,14 +989,23 @@
                             <Property name="text" type="java.lang.String" value="Thumb:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtLRingLog">
-                        </Component>
                         <Component class="javax.swing.JLabel" name="jLabel22">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Little finger:"/>
                           </Properties>
                         </Component>
-                        <Component class="javax.swing.JTextField" name="txtLThumbLog">
+                        <Component class="javax.swing.JPasswordField" name="txtLLittleLog">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtLRingLog">
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLRingLogActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtLMiddleLog">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtLThumbLog">
+                        </Component>
+                        <Component class="javax.swing.JPasswordField" name="txtLForeLog">
                         </Component>
                       </SubComponents>
                     </Container>

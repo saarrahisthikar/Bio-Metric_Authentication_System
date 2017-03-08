@@ -18,22 +18,19 @@ public class AuthenticationController {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    static boolean checkData(String[] userDetails, Connection con) throws SQLException {
+    static boolean checkData(User user, Connection con) throws SQLException {
 
               
         boolean flag = false;
 
-        String val=PasswordEncryption.encryptByte(userDetails[1])+PasswordEncryption.encryptByte(userDetails[2])+PasswordEncryption.encryptByte(userDetails[3])
-                +PasswordEncryption.encryptByte(userDetails[4])+PasswordEncryption.encryptByte(userDetails[5])+PasswordEncryption.encryptByte(userDetails[6])
-                +PasswordEncryption.encryptByte(userDetails[7])+PasswordEncryption.encryptByte(userDetails[8])+PasswordEncryption.encryptByte(userDetails[9])
-                +PasswordEncryption.encryptByte(userDetails[10]);
+       
         
-        String password =PasswordEncryption.finalPassword(val);
+        String password =user.getPassword();
         
-        String[] retrievedData = DatabaseHandler.getData(con, userDetails[0]);
+        String[] retrievedData = DatabaseHandler.getData(con, user.getUsername());
 
         System.out.println(retrievedData[0]);
-        if (userDetails[0].equals(retrievedData[0]) && password.equals(retrievedData[1]) ) {
+        if (user.getUsername().equals(retrievedData[0]) && password.equals(retrievedData[1]) ) {
             flag = true;
         }
         return flag;

@@ -40,49 +40,49 @@ public class Login extends javax.swing.JFrame {
         jPanel6 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
-        txtCLittleSign = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
-        txtCRingSign = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
-        txtCRingCon = new javax.swing.JTextField();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        txtCLittleCon = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
-        txtCMiddleSign = new javax.swing.JTextField();
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
-        txtCThumbCon = new javax.swing.JTextField();
-        txtCThumbSign = new javax.swing.JTextField();
-        txtCForeCon = new javax.swing.JTextField();
-        txtCForeSign = new javax.swing.JTextField();
-        txtCMiddleCon = new javax.swing.JTextField();
+        txtCLittleSign = new javax.swing.JPasswordField();
+        txtCLittleCon = new javax.swing.JPasswordField();
+        txtCRingSign = new javax.swing.JPasswordField();
+        txtCRingCon = new javax.swing.JPasswordField();
+        txtCMiddleSign = new javax.swing.JPasswordField();
+        txtCMiddleCon = new javax.swing.JPasswordField();
+        txtCForeSign = new javax.swing.JPasswordField();
+        txtCForeCon = new javax.swing.JPasswordField();
+        txtCThumbSign = new javax.swing.JPasswordField();
+        txtCThumbCon = new javax.swing.JPasswordField();
         jPanel8 = new javax.swing.JPanel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        txtLRingSign = new javax.swing.JTextField();
         jLabel25 = new javax.swing.JLabel();
-        txtLRingCon = new javax.swing.JTextField();
-        jLabel27 = new javax.swing.JLabel();
-        txtLMiddleSign = new javax.swing.JTextField();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel23 = new javax.swing.JLabel();
+        txtLLittleSign = new javax.swing.JPasswordField();
         jLabel35 = new javax.swing.JLabel();
+        txtLMiddleCon = new javax.swing.JPasswordField();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        txtLRingSign = new javax.swing.JPasswordField();
+        jLabel33 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
-        txtLThumbCon = new javax.swing.JTextField();
-        txtLThumbSign = new javax.swing.JTextField();
-        txtLForeCon = new javax.swing.JTextField();
-        txtLForeSign = new javax.swing.JTextField();
-        txtLMiddleCon = new javax.swing.JTextField();
-        jPanel10 = new javax.swing.JPanel();
-        jLabel26 = new javax.swing.JLabel();
+        txtLMiddleSign = new javax.swing.JPasswordField();
+        txtLLittleCon = new javax.swing.JPasswordField();
         jLabel28 = new javax.swing.JLabel();
-        txtLLittleCon = new javax.swing.JTextField();
-        txtLLittleSign = new javax.swing.JTextField();
+        txtLForeCon = new javax.swing.JPasswordField();
+        txtLThumbSign = new javax.swing.JPasswordField();
+        txtLThumbCon = new javax.swing.JPasswordField();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        txtLForeSign = new javax.swing.JPasswordField();
+        txtLRingCon = new javax.swing.JPasswordField();
         jLabel16 = new javax.swing.JLabel();
         usernameSign = new javax.swing.JTextField();
         jLabel29 = new javax.swing.JLabel();
@@ -92,28 +92,28 @@ public class Login extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
-        txtCLittleLog = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        txtCMiddleLog = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        txtCForeLog = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        txtCRingLog = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        txtCThumbLog = new javax.swing.JTextField();
+        txtCLittleLog = new javax.swing.JPasswordField();
+        txtCThumbLog = new javax.swing.JPasswordField();
+        txtCForeLog = new javax.swing.JPasswordField();
+        txtCMiddleLog = new javax.swing.JPasswordField();
+        txtCRingLog = new javax.swing.JPasswordField();
         jPanel3 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
-        txtLLittleLog = new javax.swing.JTextField();
         jLabel18 = new javax.swing.JLabel();
-        txtLMiddleLog = new javax.swing.JTextField();
         jLabel19 = new javax.swing.JLabel();
-        txtLForeLog = new javax.swing.JTextField();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
-        txtLRingLog = new javax.swing.JTextField();
         jLabel22 = new javax.swing.JLabel();
-        txtLThumbLog = new javax.swing.JTextField();
+        txtLLittleLog = new javax.swing.JPasswordField();
+        txtLRingLog = new javax.swing.JPasswordField();
+        txtLMiddleLog = new javax.swing.JPasswordField();
+        txtLThumbLog = new javax.swing.JPasswordField();
+        txtLForeLog = new javax.swing.JPasswordField();
         jLabel1 = new javax.swing.JLabel();
         usernameLog = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
@@ -138,37 +138,13 @@ public class Login extends javax.swing.JFrame {
 
         jLabel10.setText("Ring finger:");
 
-        txtCLittleSign.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCLittleSignActionPerformed(evt);
-            }
-        });
-
         jLabel11.setText("Confirm Ring finger:");
 
-        txtCRingSign.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCRingSignActionPerformed(evt);
-            }
-        });
-
         jLabel12.setText("Circumference at the bottom of the,");
-
-        txtCRingCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtCRingConFocusLost(evt);
-            }
-        });
 
         jLabel13.setText("Confirm Little finger:");
 
         jLabel14.setText("Middle finger:");
-
-        txtCLittleCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtCLittleConFocusLost(evt);
-            }
-        });
 
         jLabel15.setText("Little finger:");
 
@@ -178,37 +154,9 @@ public class Login extends javax.swing.JFrame {
 
         jLabel39.setText("Confirm Fore finger:");
 
-        jLabel40.setText("Fore finger:");
+        jLabel40.setText("Thumb:");
 
         jLabel41.setText("Confirm Thumb:");
-
-        txtCThumbCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtCThumbConFocusLost(evt);
-            }
-        });
-
-        txtCForeCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtCForeConFocusLost(evt);
-            }
-        });
-        txtCForeCon.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCForeConActionPerformed(evt);
-            }
-        });
-
-        txtCMiddleCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtCMiddleConFocusLost(evt);
-            }
-        });
-        txtCMiddleCon.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCMiddleConActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -217,43 +165,55 @@ public class Login extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
+                    .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(47, 47, 47)
-                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel7Layout.createSequentialGroup()
-                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel40, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel41, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jLabel41, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtCMiddleCon)
-                                    .addComponent(txtCForeSign)
-                                    .addComponent(txtCForeCon)
-                                    .addComponent(txtCThumbSign)
-                                    .addComponent(txtCThumbCon, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(txtCThumbCon))
                             .addGroup(jPanel7Layout.createSequentialGroup()
-                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jLabel40, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtCLittleSign)
-                                    .addComponent(txtCLittleCon)
-                                    .addComponent(txtCRingSign)
-                                    .addComponent(txtCRingCon)
-                                    .addComponent(txtCMiddleSign, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                                .addComponent(txtCThumbSign))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCForeCon))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCForeSign))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCMiddleCon))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCMiddleSign))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCRingCon))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCRingSign))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCLittleCon))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txtCLittleSign, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 76, Short.MAX_VALUE)))
                 .addContainerGap())
         );
 
-        jPanel7Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jLabel10, jLabel11, jLabel13, jLabel14, jLabel15});
+        jPanel7Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jLabel10, jLabel11, jLabel13, jLabel14, jLabel15, jLabel37, jLabel38, jLabel39, jLabel40, jLabel41});
 
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -300,122 +260,126 @@ public class Login extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel41)
                     .addComponent(txtCThumbCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(83, Short.MAX_VALUE))
         );
 
-        jPanel7Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel10, jLabel11, jLabel13, jLabel14, jLabel15, txtCLittleCon, txtCLittleSign, txtCMiddleSign, txtCRingCon, txtCRingSign});
+        jPanel7Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel10, jLabel11, jLabel13, jLabel14, jLabel15, jLabel37, jLabel38, jLabel39, jLabel40, jLabel41, txtCForeCon, txtCForeSign, txtCLittleCon, txtCLittleSign, txtCMiddleCon, txtCMiddleSign, txtCRingCon, txtCRingSign, txtCThumbCon, txtCThumbSign});
 
         jPanel8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel23.setText("Ring finger:");
-
-        jLabel24.setText("Confirm Ring finger:");
-
-        txtLRingSign.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtLRingSignActionPerformed(evt);
-            }
-        });
-
         jLabel25.setText("Length of the,");
 
-        txtLRingCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtLRingConFocusLost(evt);
-            }
-        });
-
-        jLabel27.setText("Middle finger:");
-
-        jLabel32.setText("Confirm Middle finger:");
-
-        jLabel33.setText("Fore finger:");
-
-        jLabel34.setText("Confirm Fore finger:");
+        jLabel23.setText("Ring finger:");
 
         jLabel35.setText("Thumb:");
 
-        jLabel36.setText("Confirm Thumb:");
-
-        txtLThumbCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtLThumbConFocusLost(evt);
-            }
-        });
-
-        txtLForeCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtLForeConFocusLost(evt);
-            }
-        });
-        txtLForeCon.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtLForeConActionPerformed(evt);
-            }
-        });
-
-        txtLMiddleCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtLMiddleConFocusLost(evt);
-            }
-        });
         txtLMiddleCon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtLMiddleConActionPerformed(evt);
             }
         });
 
-        jPanel10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel32.setText("Confirm Middle finger:");
 
-        jLabel26.setText("Confirm Little finger:");
+        jLabel34.setText("Confirm Fore finger:");
+
+        jLabel33.setText("Fore finger:");
+
+        jLabel36.setText("Confirm Thumb:");
 
         jLabel28.setText("Little finger:");
 
-        txtLLittleCon.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtLLittleConFocusLost(evt);
-            }
-        });
+        jLabel26.setText("Confirm Little finger:");
 
-        txtLLittleSign.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtLLittleSignActionPerformed(evt);
-            }
-        });
+        jLabel24.setText("Confirm Ring finger:");
 
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
+        jLabel27.setText("Middle finger:");
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel26, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel32, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel23, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel24, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel27, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel33, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel34, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel35, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel36, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 255, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(txtLLittleSign)
-                    .addComponent(txtLLittleCon))
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtLMiddleCon, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLLittleCon, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLLittleSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLThumbCon, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLMiddleSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLForeSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLThumbSign, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLRingCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLRingSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtLForeCon, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
-        jPanel10Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jLabel26, jLabel28});
+        jPanel11Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jLabel23, jLabel24, jLabel26, jLabel27, jLabel28, jLabel32, jLabel33, jLabel34, jLabel35, jLabel36});
 
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
+        jPanel11Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtLForeCon, txtLForeSign, txtLLittleCon, txtLLittleSign, txtLMiddleCon, txtLMiddleSign, txtLRingCon, txtLRingSign, txtLThumbCon, txtLThumbSign});
+
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel28)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel28, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtLLittleSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel26)
                     .addComponent(txtLLittleCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtLRingSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel23))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtLRingCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel24))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel27)
+                    .addComponent(txtLMiddleSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(3, 3, 3)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel32)
+                    .addComponent(txtLMiddleCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel33)
+                    .addComponent(txtLForeSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel34)
+                    .addComponent(txtLForeCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel35)
+                    .addComponent(txtLThumbSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel36)
+                    .addComponent(txtLThumbCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
-        jPanel10Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel26, jLabel28, txtLLittleCon, txtLLittleSign});
+        jPanel11Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel26, jLabel28});
+
+        jPanel11Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel23, jLabel24, jLabel27, jLabel32, jLabel33, jLabel34, jLabel35, jLabel36, txtLForeCon, txtLForeSign, txtLLittleCon, txtLLittleSign, txtLMiddleCon, txtLMiddleSign, txtLRingCon, txtLRingSign, txtLThumbCon, txtLThumbSign});
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -423,37 +387,12 @@ public class Login extends javax.swing.JFrame {
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                        .addGap(0, 51, Short.MAX_VALUE)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtLRingSign)
-                                    .addComponent(txtLRingCon)
-                                    .addComponent(txtLMiddleSign, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jLabel33, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 174, Short.MAX_VALUE)
-                                    .addComponent(jLabel34, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 174, Short.MAX_VALUE)
-                                    .addComponent(jLabel35, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 174, Short.MAX_VALUE)
-                                    .addComponent(jLabel36, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 174, Short.MAX_VALUE)
-                                    .addComponent(jLabel32, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtLMiddleCon)
-                                    .addComponent(txtLForeSign)
-                                    .addComponent(txtLForeCon)
-                                    .addComponent(txtLThumbSign)
-                                    .addComponent(txtLThumbCon, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(jPanel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -461,40 +400,8 @@ public class Login extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel25)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel23)
-                    .addComponent(txtLRingSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel24)
-                    .addComponent(txtLRingCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel27)
-                    .addComponent(txtLMiddleSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel32)
-                    .addComponent(txtLMiddleCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel33)
-                    .addComponent(txtLForeSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel34)
-                    .addComponent(txtLForeCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel35)
-                    .addComponent(txtLThumbSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel36)
-                    .addComponent(txtLThumbCon, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(64, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
@@ -502,11 +409,11 @@ public class Login extends javax.swing.JFrame {
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(31, 31, 31)
+                .addContainerGap()
                 .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(34, 34, 34))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jPanel6Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jPanel7, jPanel8});
@@ -516,10 +423,12 @@ public class Login extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
+                    .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(23, Short.MAX_VALUE))
         );
+
+        jPanel6Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jPanel7, jPanel8});
 
         jLabel16.setFont(new java.awt.Font("Yu Gothic UI Light", 3, 36)); // NOI18N
         jLabel16.setText("                          Sign Up");
@@ -535,40 +444,41 @@ public class Login extends javax.swing.JFrame {
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(jPanel5Layout.createSequentialGroup()
-                            .addGap(20, 20, 20)
-                            .addComponent(jLabel30)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(usernameSign))
-                        .addGroup(jPanel5Layout.createSequentialGroup()
-                            .addContainerGap()
-                            .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 766, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(jPanel5Layout.createSequentialGroup()
-                            .addGap(335, 335, 335)
-                            .addComponent(btnSignUp, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel29)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(397, 397, 397)
+                        .addComponent(btnSignUp, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(76, 76, 76)
+                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 766, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel29)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(jLabel30)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(usernameSign, javax.swing.GroupLayout.PREFERRED_SIZE, 671, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(19, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(4, 4, 4)
+                .addGap(21, 21, 21)
                 .addComponent(jLabel16)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel30)
-                    .addComponent(usernameSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(usernameSign, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel30, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel29)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(18, 18, 18)
+                .addGap(32, 32, 32)
                 .addComponent(btnSignUp, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(37, 37, 37))
         );
 
         jPanel5Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel29, jLabel30, usernameSign});
@@ -589,19 +499,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel5.setText("Middle finger:");
 
-        txtCLittleLog.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCLittleLogActionPerformed(evt);
-            }
-        });
-
         jLabel6.setText("Fore finger:");
-
-        txtCMiddleLog.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCMiddleLogActionPerformed(evt);
-            }
-        });
 
         jLabel9.setText("Circumference at the bottom of the,");
 
@@ -618,26 +516,29 @@ public class Login extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 307, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(47, 47, 47)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtCLittleLog)
-                            .addComponent(txtCRingLog)
-                            .addComponent(txtCMiddleLog)
-                            .addComponent(txtCForeLog)
-                            .addComponent(txtCThumbLog, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 151, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtCThumbLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCForeLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCMiddleLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCRingLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCLittleLog, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(9, 9, 9)))
                 .addContainerGap())
         );
 
-        jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jLabel3, jLabel4, jLabel5, jLabel6, jLabel8, jLabel9});
+        jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jLabel3, jLabel4, jLabel5, jLabel6, jLabel8});
+
+        jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtCForeLog, txtCLittleLog, txtCMiddleLog, txtCRingLog, txtCThumbLog});
 
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -661,7 +562,7 @@ public class Login extends javax.swing.JFrame {
                     .addComponent(jLabel6)
                     .addComponent(txtCForeLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8)
                     .addComponent(txtCThumbLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
@@ -673,19 +574,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel17.setText("Middle finger:");
 
-        txtLLittleLog.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtLLittleLogActionPerformed(evt);
-            }
-        });
-
         jLabel18.setText("Fore finger:");
-
-        txtLMiddleLog.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtLMiddleLogActionPerformed(evt);
-            }
-        });
 
         jLabel19.setText("Length of the,");
 
@@ -695,6 +584,12 @@ public class Login extends javax.swing.JFrame {
 
         jLabel22.setText("Little finger:");
 
+        txtLRingLog.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtLRingLogActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -702,24 +597,31 @@ public class Login extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(115, 115, 115))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(47, 47, 47)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 178, Short.MAX_VALUE)
-                            .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel22, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtLLittleLog)
-                            .addComponent(txtLRingLog)
-                            .addComponent(txtLMiddleLog)
-                            .addComponent(txtLForeLog)
-                            .addComponent(txtLThumbLog, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel22, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel20, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel21, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txtLThumbLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtLForeLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtLMiddleLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtLRingLog, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtLLittleLog, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
         );
+
+        jPanel3Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jLabel17, jLabel18, jLabel20, jLabel21, jLabel22});
+
+        jPanel3Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtLForeLog, txtLLittleLog, txtLMiddleLog, txtLRingLog, txtLThumbLog});
+
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
@@ -742,7 +644,7 @@ public class Login extends javax.swing.JFrame {
                     .addComponent(jLabel18)
                     .addComponent(txtLForeLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel21)
                     .addComponent(txtLThumbLog, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
@@ -769,7 +671,7 @@ public class Login extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
@@ -790,24 +692,27 @@ public class Login extends javax.swing.JFrame {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7)
-                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(usernameLog, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 19, Short.MAX_VALUE))
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(84, 84, 84)
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(333, 333, 333)
-                .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel7)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(jLabel2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(usernameLog, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(90, Short.MAX_VALUE)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(64, 64, 64))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                        .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(377, 377, 377))))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -822,9 +727,9 @@ public class Login extends javax.swing.JFrame {
                 .addComponent(jLabel7)
                 .addGap(18, 18, 18)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 99, Short.MAX_VALUE)
+                .addGap(71, 71, 71)
                 .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(75, 75, 75))
+                .addContainerGap(205, Short.MAX_VALUE))
         );
 
         jPanel4Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel2, jLabel7, usernameLog});
@@ -837,7 +742,7 @@ public class Login extends javax.swing.JFrame {
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 918, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel9Layout.setVerticalGroup(
@@ -858,12 +763,12 @@ public class Login extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(51, 51, 51)
+                        .addGap(248, 248, 248)
                         .addComponent(jLabel31))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(29, 29, 29)
                         .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -878,27 +783,13 @@ public class Login extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtCLittleLogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCLittleLogActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCLittleLogActionPerformed
-
-    private void txtCMiddleLogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCMiddleLogActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCMiddleLogActionPerformed
-
-    private void txtLLittleLogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLLittleLogActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtLLittleLogActionPerformed
-
-    private void txtLMiddleLogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLMiddleLogActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtLMiddleLogActionPerformed
-
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
         //Length of fingers
 
         Double[] userDetails = new Double[10];
         String[] userDetailStr = new String[11];
+
+        Connection con = DatabaseHandler.DBConnect();
 
         try {
 
@@ -920,10 +811,9 @@ public class Login extends javax.swing.JFrame {
             for (int i = 0; i < 10; i++) {
                 userDetailStr[i + 1] = Double.toString(userDetails[i]);
             }
-
-            Connection con = DatabaseHandler.DBConnect();
+            User user = new User(userDetailStr[0], userDetailStr[1], userDetailStr[2], userDetailStr[3], userDetailStr[4], userDetailStr[5], userDetailStr[6], userDetailStr[7], userDetailStr[8], userDetailStr[9], userDetailStr[10]);
             if (AuthenticationController.checkUsername(userDetailStr[0], con)) {
-                if (AuthenticationController.checkData(userDetailStr, con)) {
+                if (AuthenticationController.checkData(user, con)) {
                     JOptionPane.showMessageDialog(null, "Success ", "Success", JOptionPane.PLAIN_MESSAGE);
 
                 } else {
@@ -950,14 +840,29 @@ public class Login extends javax.swing.JFrame {
             this.txtCForeLog.setText("");
             this.txtCThumbLog.setText("");
 
-            //           DatabaseHandler.closeConnection(con);
+            try {
+                DatabaseHandler.closeConnection(con);
+                //           DatabaseHandler.closeConnection(con);
+            } catch (SQLException ex) {
+                Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
         //System.out.pri
 
 
     }//GEN-LAST:event_btnLoginActionPerformed
 
+    private void txtLRingLogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLRingLogActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtLRingLogActionPerformed
+
+    private void txtLMiddleConActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLMiddleConActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtLMiddleConActionPerformed
+
     private void btnSignUpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSignUpActionPerformed
+
+        Connection conn = DatabaseHandler.DBConnect();
 
         double[] userDetail = new double[10];
         String[] userDetailStr = new String[11];
@@ -970,26 +875,25 @@ public class Login extends javax.swing.JFrame {
 
             } else {
 
-//Length of fingers
+                //Length of fingers
                 userDetailStr[0] = this.usernameSign.getText();
                 userDetail[0] = Double.parseDouble(this.txtLLittleSign.getText());
-                userDetail[1] = Double.parseDouble(this.txtLLittleCon.getText());
-                userDetail[2] = Double.parseDouble(this.txtLRingSign.getText());
-                userDetail[3] = Double.parseDouble(this.txtLRingCon.getText());
-                userDetail[4] = Double.parseDouble(this.txtLMiddleSign.getText());
+                userDetail[1] = Double.parseDouble(this.txtLRingSign.getText());
+                userDetail[2] = Double.parseDouble(this.txtLMiddleSign.getText());
+                userDetail[3] = Double.parseDouble(this.txtLForeSign.getText());
+                userDetail[4] = Double.parseDouble(this.txtLThumbSign.getText());
 
                 //Circumference of finger
                 userDetail[5] = Double.parseDouble(this.txtCLittleSign.getText());
-                userDetail[6] = Double.parseDouble(this.txtCLittleCon.getText());
-                userDetail[7] = Double.parseDouble(this.txtCRingSign.getText());
-                userDetail[8] = Double.parseDouble(this.txtCRingCon.getText());
-                userDetail[9] = Double.parseDouble(this.txtCMiddleSign.getText());
+                userDetail[6] = Double.parseDouble(this.txtCRingSign.getText());
+                userDetail[7] = Double.parseDouble(this.txtCMiddleSign.getText());
+                userDetail[8] = Double.parseDouble(this.txtCForeSign.getText());
+                userDetail[9] = Double.parseDouble(this.txtCThumbSign.getText());
 
                 for (int i = 0; i < 10; i++) {
                     userDetailStr[i + 1] = Double.toString(userDetail[i]);
                 }
 
-                Connection conn = DatabaseHandler.DBConnect();
                 if (AuthenticationController.checkUsername(userDetailStr[0], conn)) {
                     JOptionPane.showMessageDialog(null, "Username already exists. enter another one", "Change Username", JOptionPane.WARNING_MESSAGE);
 
@@ -1015,6 +919,9 @@ public class Login extends javax.swing.JFrame {
             this.txtLRingSign.setText("");
             this.txtLRingCon.setText("");
             this.txtLMiddleSign.setText("");
+            this.txtLMiddleCon.setText("");
+            this.txtLForeSign.setText("");
+            this.txtLForeCon.setText("");
 
             //Circumference of finger
             this.txtCLittleSign.setText("");
@@ -1022,140 +929,24 @@ public class Login extends javax.swing.JFrame {
             this.txtCRingSign.setText("");
             this.txtCRingCon.setText("");
             this.txtCMiddleSign.setText("");
+            this.txtCMiddleCon.setText("");
+            this.txtCForeSign.setText("");
+            this.txtCForeCon.setText("");
+            this.txtCThumbSign.setText("");
+            this.txtCThumbCon.setText("");
+
+            try {
+                DatabaseHandler.closeConnection(conn);
+            } catch (SQLException ex) {
+                Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }//GEN-LAST:event_btnSignUpActionPerformed
-
-    private void txtCLittleSignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCLittleSignActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCLittleSignActionPerformed
-
-    private void txtCRingSignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCRingSignActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCRingSignActionPerformed
-
-    private void txtLLittleSignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLLittleSignActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtLLittleSignActionPerformed
-
-    private void txtLRingSignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLRingSignActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtLRingSignActionPerformed
-
-    private void txtLForeConActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLForeConActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtLForeConActionPerformed
-
-    private void txtLMiddleConActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLMiddleConActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtLMiddleConActionPerformed
-
-    private void txtCForeConActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCForeConActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCForeConActionPerformed
-
-    private void txtCMiddleConActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCMiddleConActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCMiddleConActionPerformed
-
-    private void txtLLittleConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLLittleConFocusLost
-
-        //    System.out.println((this.txtLLittleSign)==(this.txtLLittleCon));
-        if (!(this.txtLLittleSign.getText()).equals(this.txtLLittleCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtLLittleCon.setText("");
-        }
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtLLittleConFocusLost
-
-    private void txtLRingConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLRingConFocusLost
-        if (!(this.txtLRingSign.getText()).equals(this.txtLRingCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtLRingCon.setText("");
-        }
-
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtLRingConFocusLost
-
-    private void txtLMiddleConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLMiddleConFocusLost
-
-        if (!(this.txtLMiddleSign.getText()).equals(this.txtLMiddleCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtLMiddleCon.setText("");
-        }
-
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtLMiddleConFocusLost
-
-    private void txtLForeConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLForeConFocusLost
-
-        if (!(this.txtLForeSign.getText()).equals(this.txtLForeCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtLForeCon.setText("");
-        }
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtLForeConFocusLost
-
-    private void txtLThumbConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLThumbConFocusLost
-
-        if (!(this.txtLThumbSign.getText()).equals(this.txtLThumbCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtLThumbCon.setText("");
-        }
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtLThumbConFocusLost
-
-    private void txtCLittleConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCLittleConFocusLost
-
-        if (!(this.txtCLittleSign.getText()).equals(this.txtCLittleCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtCLittleCon.setText("");
-        }
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtCLittleConFocusLost
-
-    private void txtCRingConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCRingConFocusLost
-
-        if (!(this.txtCRingSign.getText()).equals(this.txtCRingCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtCRingCon.setText("");
-        }
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCRingConFocusLost
-
-    private void txtCMiddleConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCMiddleConFocusLost
-
-        if (!(this.txtCMiddleSign.getText()).equals(this.txtCMiddleCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtCMiddleCon.setText("");
-        }
-
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtCMiddleConFocusLost
-
-    private void txtCForeConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCForeConFocusLost
-
-        if (!(this.txtCForeSign.getText()).equals(this.txtCForeCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtCForeCon.setText("");
-        }
-
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtCForeConFocusLost
-
-    private void txtCThumbConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCThumbConFocusLost
-
-        if (!(this.txtCThumbSign.getText()).equals(this.txtCThumbCon.getText())) {
-            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value Mismatch", JOptionPane.ERROR_MESSAGE);
-            this.txtCThumbCon.setText("");
-        }
-
-// TODO add your handling code here:
-    }//GEN-LAST:event_txtCThumbConFocusLost
 
     /**
      * @param args the command line arguments
      */
-   
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnSignUp;
@@ -1201,7 +992,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -1211,36 +1002,36 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTextField txtCForeCon;
-    private javax.swing.JTextField txtCForeLog;
-    private javax.swing.JTextField txtCForeSign;
-    private javax.swing.JTextField txtCLittleCon;
-    private javax.swing.JTextField txtCLittleLog;
-    private javax.swing.JTextField txtCLittleSign;
-    private javax.swing.JTextField txtCMiddleCon;
-    private javax.swing.JTextField txtCMiddleLog;
-    private javax.swing.JTextField txtCMiddleSign;
-    private javax.swing.JTextField txtCRingCon;
-    private javax.swing.JTextField txtCRingLog;
-    private javax.swing.JTextField txtCRingSign;
-    private javax.swing.JTextField txtCThumbCon;
-    private javax.swing.JTextField txtCThumbLog;
-    private javax.swing.JTextField txtCThumbSign;
-    private javax.swing.JTextField txtLForeCon;
-    private javax.swing.JTextField txtLForeLog;
-    private javax.swing.JTextField txtLForeSign;
-    private javax.swing.JTextField txtLLittleCon;
-    private javax.swing.JTextField txtLLittleLog;
-    private javax.swing.JTextField txtLLittleSign;
-    private javax.swing.JTextField txtLMiddleCon;
-    private javax.swing.JTextField txtLMiddleLog;
-    private javax.swing.JTextField txtLMiddleSign;
-    private javax.swing.JTextField txtLRingCon;
-    private javax.swing.JTextField txtLRingLog;
-    private javax.swing.JTextField txtLRingSign;
-    private javax.swing.JTextField txtLThumbCon;
-    private javax.swing.JTextField txtLThumbLog;
-    private javax.swing.JTextField txtLThumbSign;
+    private javax.swing.JPasswordField txtCForeCon;
+    private javax.swing.JPasswordField txtCForeLog;
+    private javax.swing.JPasswordField txtCForeSign;
+    private javax.swing.JPasswordField txtCLittleCon;
+    private javax.swing.JPasswordField txtCLittleLog;
+    private javax.swing.JPasswordField txtCLittleSign;
+    private javax.swing.JPasswordField txtCMiddleCon;
+    private javax.swing.JPasswordField txtCMiddleLog;
+    private javax.swing.JPasswordField txtCMiddleSign;
+    private javax.swing.JPasswordField txtCRingCon;
+    private javax.swing.JPasswordField txtCRingLog;
+    private javax.swing.JPasswordField txtCRingSign;
+    private javax.swing.JPasswordField txtCThumbCon;
+    private javax.swing.JPasswordField txtCThumbLog;
+    private javax.swing.JPasswordField txtCThumbSign;
+    private javax.swing.JPasswordField txtLForeCon;
+    private javax.swing.JPasswordField txtLForeLog;
+    private javax.swing.JPasswordField txtLForeSign;
+    private javax.swing.JPasswordField txtLLittleCon;
+    private javax.swing.JPasswordField txtLLittleLog;
+    private javax.swing.JPasswordField txtLLittleSign;
+    private javax.swing.JPasswordField txtLMiddleCon;
+    private javax.swing.JPasswordField txtLMiddleLog;
+    private javax.swing.JPasswordField txtLMiddleSign;
+    private javax.swing.JPasswordField txtLRingCon;
+    private javax.swing.JPasswordField txtLRingLog;
+    private javax.swing.JPasswordField txtLRingSign;
+    private javax.swing.JPasswordField txtLThumbCon;
+    private javax.swing.JPasswordField txtLThumbLog;
+    private javax.swing.JPasswordField txtLThumbSign;
     private javax.swing.JTextField usernameLog;
     private javax.swing.JTextField usernameSign;
     // End of variables declaration//GEN-END:variables
@@ -1249,9 +1040,13 @@ public class Login extends javax.swing.JFrame {
 
         boolean flag = false;
 
-        if (txtLMiddleSign.getText().equals("") || txtLLittleSign.getText().equals("") || txtLRingSign.getText().equals("") || txtLForeSign.getText().equals("") || txtLThumbSign.getText().equals("") || txtCMiddleSign.getText().equals("")
-                || txtCLittleSign.getText().equals("") || txtCRingSign.getText().equals("") || txtCForeSign.getText().equals("") || txtCThumbSign.getText().equals("") || txtLMiddleSign.getText().equals("") || txtLLittleCon.getText().equals("") || txtLRingCon.getText().equals("") || txtLForeCon.getText().equals("") || txtLThumbCon.getText().equals("") || txtCMiddleCon.getText().equals("")
-                || txtCLittleCon.getText().equals("") || txtCRingCon.getText().equals("") || txtCForeCon.getText().equals("") || txtCThumbCon.getText().equals("")) {
+        if (usernameSign.getText().equals("") || txtLLittleSign.getText().equals("") || txtLRingSign.getText().equals("")
+                || txtLMiddleSign.getText().equals("") || txtLThumbSign.getText().equals("") || txtLForeSign.getText().equals("")
+                || txtCMiddleSign.getText().equals("") || txtCLittleSign.getText().equals("") || txtCRingSign.getText().equals("")
+                || txtCForeSign.getText().equals("") || txtCThumbSign.getText().equals("") || txtLLittleCon.getText().equals("")
+                || txtLRingCon.getText().equals("") || txtLForeCon.getText().equals("") || txtLThumbCon.getText().equals("")
+                || txtLMiddleCon.getText().equals("") || txtCMiddleCon.getText().equals("") || txtCLittleCon.getText().equals("")
+                || txtCRingCon.getText().equals("") || txtCForeCon.getText().equals("") || txtCThumbCon.getText().equals("")) {
 
             flag = true;
         }

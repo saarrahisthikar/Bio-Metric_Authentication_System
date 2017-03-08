@@ -10,12 +10,19 @@ import java.util.logging.Logger;
  */
 public class DatabaseHandler {
 
+    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    static final String DB_URL = "jdbc:mysql://localhost";
+
+    //  Database credentials
+    static final String USER = "root";
+    static final String PASS = "";
+
     public static Connection DBConnect() {
 
         try {
-            Connection conn;
-            Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/biometric_login", "root", "");
+
+            Class.forName(JDBC_DRIVER);
+            Connection conn = DriverManager.getConnection(DB_URL + "/biometric_authentication", USER, PASS);
             return conn;
         } catch (Exception e) {
             System.out.println(e);
@@ -44,7 +51,7 @@ public class DatabaseHandler {
     public static void addToDatabase(User user, Connection conn) {
 
         try {
-            String insertTableSQL = "INSERT INTO users (username,bio_metric_auth) VALUES (?,?)";
+            String insertTableSQL = "INSERT INTO users (username,biometric_pass) VALUES (?,?)";
 
             PreparedStatement preparedStatement = conn.prepareStatement(insertTableSQL);
             preparedStatement.setString(1, user.getUsername());
@@ -82,7 +89,25 @@ public class DatabaseHandler {
 
     }
 
-    static void closeConnection() {
+    static void closeConnection(Connection conn) throws SQLException {
+
+        conn.close();
+    }
+
+    static void initialize() throws ClassNotFoundException, SQLException {
+
+        Class.forName(JDBC_DRIVER);
+        Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
+
+       
+
+        String[] querySet ={ "CREATE DATABASE IF NOT EXISTS biometric_authentication","use biometric_authentication", "CREATE TABLE IF NOT EXISTS users (username varchar[255] not null,biometric_pass varchar[255] not null)"};
+
+        for(String query:querySet){
+             Statement stmt = conn.createStatement();
+        stmt.executeUpdate(query);
+        System.out.print("successful");}
+        conn.close();
     }
 
 }

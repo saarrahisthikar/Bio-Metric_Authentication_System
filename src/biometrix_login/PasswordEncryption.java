@@ -63,6 +63,9 @@ public class PasswordEncryption {
 
     static String finalPassword(String val) {
 
+        String[] array = {"1*", "4f", "x1", "@#", "Zi", "$b", "j9", "%Y", ":/", "g&", "<k", ".P", "?^", ",o", "+_", "-;",
+            "Q*", ")0", "]i", "@}", "Z=", "8-", "yC", "!>", "&n", "tD", "~l", "g$", "oE", "*_", "|r", "ma"};
+
         int remainder = val.length() % 5;
 
         while (remainder != 0) {
@@ -73,37 +76,132 @@ public class PasswordEncryption {
         ArrayList<String> x = new ArrayList<String>();
 
         for (int i = 0; i < val.length() - 6; i = i + 5) {
-            x.add(val.substring(i, i + 5));
+            String binVal = val.substring(i, i + 5);
+            String result = getResult(binVal, array);
+
+            x.add(result);
         }
 
         Collections.reverse(x);
 
-        if (x.size() > 2) {
-
-            Collections.swap(x, 0, 3);
-        }
-        if (x.size() > 5) {
-
-            Collections.swap(x, 4, 6);
-        }
-        if (x.size() > 10) {
-
-            Collections.swap(x, 8, 11);
-        }
-        if (x.size() > 20) {
-
-            Collections.swap(x, 7, 21);
-        }
-        if (x.size() > 7) {
-
-            Collections.swap(x, 2, 8);
-        }
-
+        
         String password = "";
         for (int i = 0; i < x.size(); i++) {
             password = password + x.get(i);
         }
         return password;
+    }
+
+    private static String getResult(String binVal, String[] array) {
+
+        String val;
+        switch (binVal) {
+
+            case "00000":
+                val = array[0];
+                break;
+            case "00001":
+                val = array[1];
+                break;
+            case "00010":
+                val = array[2];
+                break;
+            case "00011":
+                val = array[3];
+                break;
+            case "00100":
+                val = array[4];
+                break;
+            case "00101":
+                val = array[5];
+                break;
+            case "00110":
+                val = array[6];
+                break;
+            case "00111":
+                val = array[7];
+                break;
+            case "01000":
+                val = array[8];
+                break;
+
+            case "01001":
+                val = array[9];
+                break;
+            case "01010":
+                val = array[10];
+                break;
+
+            case "01011":
+                val = array[11];
+                break;
+            case "01100":
+                val = array[12];
+                break;
+            case "01101":
+                val = array[13];
+                break;
+            case "01110":
+                val = array[14];
+                break;
+            case "01111":
+                val = array[15];
+                break;
+            case "10000":
+                val = array[16];
+                break;
+
+            case "10001":
+                val = array[17];
+                break;
+            case "10010":
+                val = array[18];
+                break;
+            case "10011":
+                val = array[19];
+                break;
+            case "10100":
+                val = array[20];
+                break;
+            case "10101":
+                val = array[21];
+                break;
+            case "10110":
+                val = array[22];
+                break;
+            case "10111":
+                val = array[23];
+                break;
+            case "11000":
+                val = array[24];
+                break;
+
+            case "11001":
+                val = array[25];
+                break;
+            case "11010":
+                val = array[26];
+                break;
+            case "11011":
+                val = array[27];
+                break;
+            case "11100":
+                val = array[28];
+                break;
+            case "11101":
+                val = array[29];
+                break;
+            case "11110":
+                val = array[30];
+                break;
+            case "11111":
+                val = array[31];
+                break;
+            default:
+                val = "as";
+
+        }
+        return val;
     }
 
 }
