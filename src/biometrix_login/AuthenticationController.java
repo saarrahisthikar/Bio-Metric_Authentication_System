@@ -20,24 +20,21 @@ public class AuthenticationController {
 
     static boolean checkData(User user, Connection con) throws SQLException {
 
-              
         boolean flag = false;
 
-       
-        
-        String password =user.getPassword();
-        
+        String password = user.getPassword();
+
         String[] retrievedData = DatabaseHandler.getData(con, user.getUsername());
 
         System.out.println(retrievedData[0]);
-        if (user.getUsername().equals(retrievedData[0]) && password.equals(retrievedData[1]) ) {
+        if (user.getUsername().equals(retrievedData[0]) && password.equals(retrievedData[1])) {
             flag = true;
         }
         return flag;
     }
 
     static boolean checkUsername(String userDetail, Connection con) throws SQLException {
-    
+
         return DatabaseHandler.checkUsername(userDetail, con);
     }
 

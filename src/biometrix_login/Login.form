@@ -391,22 +391,37 @@
                         <Component class="javax.swing.JPasswordField" name="txtCLittleSign">
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCLittleCon">
+                          <Events>
+                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCLittleConFocusLost"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCRingSign">
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCRingCon">
+                          <Events>
+                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCRingConFocusLost"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCMiddleSign">
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCMiddleCon">
+                          <Events>
+                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCMiddleConFocusLost"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCForeSign">
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCForeCon">
+                          <Events>
+                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCForeConFocusLost"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCThumbSign">
                         </Component>
                         <Component class="javax.swing.JPasswordField" name="txtCThumbCon">
+                          <Events>
+                            <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtCThumbConFocusLost"/>
+                          </Events>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -561,6 +576,7 @@
                             </Component>
                             <Component class="javax.swing.JPasswordField" name="txtLMiddleCon">
                               <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLMiddleConFocusLost"/>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLMiddleConActionPerformed"/>
                               </Events>
                             </Component>
@@ -589,6 +605,9 @@
                             <Component class="javax.swing.JPasswordField" name="txtLMiddleSign">
                             </Component>
                             <Component class="javax.swing.JPasswordField" name="txtLLittleCon">
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLLittleConFocusLost"/>
+                              </Events>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel28">
                               <Properties>
@@ -596,10 +615,16 @@
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JPasswordField" name="txtLForeCon">
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLForeConFocusLost"/>
+                              </Events>
                             </Component>
                             <Component class="javax.swing.JPasswordField" name="txtLThumbSign">
                             </Component>
                             <Component class="javax.swing.JPasswordField" name="txtLThumbCon">
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLThumbConFocusLost"/>
+                              </Events>
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel26">
                               <Properties>
@@ -619,6 +644,9 @@
                             <Component class="javax.swing.JPasswordField" name="txtLForeSign">
                             </Component>
                             <Component class="javax.swing.JPasswordField" name="txtLRingCon">
+                              <Events>
+                                <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtLRingConFocusLost"/>
+                              </Events>
                             </Component>
                           </SubComponents>
                         </Container>

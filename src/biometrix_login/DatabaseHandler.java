@@ -38,7 +38,6 @@ public class DatabaseHandler {
         Statement statement = conn.createStatement();
         ResultSet result = statement.executeQuery(query);
 
-//        String name = result.getString(1);
         while (result.next()) {
             String name = result.getString(1);
             if (username.equals(name)) {
@@ -72,7 +71,6 @@ public class DatabaseHandler {
             PreparedStatement ps = con.prepareStatement(query);
             ps.setString(1, username);
 
-            // Statement statement = con.createStatement();
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
@@ -99,14 +97,12 @@ public class DatabaseHandler {
         Class.forName(JDBC_DRIVER);
         Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
-       
+        String[] querySet = {"CREATE DATABASE IF NOT EXISTS biometric_authentication", "use biometric_authentication", "create table if not exists users(username varchar(255) primary key, biometric_pass varchar(255) not null)"};
 
-        String[] querySet ={ "CREATE DATABASE IF NOT EXISTS biometric_authentication","use biometric_authentication", "CREATE TABLE IF NOT EXISTS users (username varchar[255] not null,biometric_pass varchar[255] not null)"};
-
-        for(String query:querySet){
-             Statement stmt = conn.createStatement();
-        stmt.executeUpdate(query);
-        System.out.print("successful");}
+        for (String query : querySet) {
+            Statement stmt = conn.createStatement();
+            stmt.executeUpdate(query);
+        }
         conn.close();
     }
 

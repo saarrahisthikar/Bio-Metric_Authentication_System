@@ -84,7 +84,6 @@ public class PasswordEncryption {
 
         Collections.reverse(x);
 
-        
         String password = "";
         for (int i = 0; i < x.size(); i++) {
             password = password + x.get(i);

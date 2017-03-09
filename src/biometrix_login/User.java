@@ -90,7 +90,7 @@ public class User {
                 + PasswordEncryption.encryptByte(this.lenThumb) + PasswordEncryption.encryptByte(this.cirLittle)
                 + PasswordEncryption.encryptByte(this.cirRing) + PasswordEncryption.encryptByte(this.cirMiddle)
                 + PasswordEncryption.encryptByte(this.cirFore) + PasswordEncryption.encryptByte(this.cirMiddle);
-        
+
         return PasswordEncryption.finalPassword(concatDetails);
 
     }

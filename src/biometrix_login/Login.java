@@ -158,6 +158,36 @@ public class Login extends javax.swing.JFrame {
 
         jLabel41.setText("Confirm Thumb:");
 
+        txtCLittleCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtCLittleConFocusLost(evt);
+            }
+        });
+
+        txtCRingCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtCRingConFocusLost(evt);
+            }
+        });
+
+        txtCMiddleCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtCMiddleConFocusLost(evt);
+            }
+        });
+
+        txtCForeCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtCForeConFocusLost(evt);
+            }
+        });
+
+        txtCThumbCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtCThumbConFocusLost(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
@@ -273,6 +303,11 @@ public class Login extends javax.swing.JFrame {
 
         jLabel35.setText("Thumb:");
 
+        txtLMiddleCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtLMiddleConFocusLost(evt);
+            }
+        });
         txtLMiddleCon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtLMiddleConActionPerformed(evt);
@@ -287,13 +322,37 @@ public class Login extends javax.swing.JFrame {
 
         jLabel36.setText("Confirm Thumb:");
 
+        txtLLittleCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtLLittleConFocusLost(evt);
+            }
+        });
+
         jLabel28.setText("Little finger:");
+
+        txtLForeCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtLForeConFocusLost(evt);
+            }
+        });
+
+        txtLThumbCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtLThumbConFocusLost(evt);
+            }
+        });
 
         jLabel26.setText("Confirm Little finger:");
 
         jLabel24.setText("Confirm Ring finger:");
 
         jLabel27.setText("Middle finger:");
+
+        txtLRingCon.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtLRingConFocusLost(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -792,19 +851,7 @@ public class Login extends javax.swing.JFrame {
         Connection con = DatabaseHandler.DBConnect();
 
         try {
-
-            userDetails[0] = Double.parseDouble(this.txtLLittleLog.getText());
-            userDetails[1] = Double.parseDouble(this.txtLRingLog.getText());
-            userDetails[2] = Double.parseDouble(this.txtLMiddleLog.getText());
-            userDetails[3] = Double.parseDouble(this.txtLForeLog.getText());
-            userDetails[4] = Double.parseDouble(this.txtLThumbLog.getText());
-
-            //Circumference of finger
-            userDetails[5] = Double.parseDouble(this.txtCLittleLog.getText());
-            userDetails[6] = Double.parseDouble(this.txtCRingLog.getText());
-            userDetails[7] = Double.parseDouble(this.txtCMiddleLog.getText());
-            userDetails[8] = Double.parseDouble(this.txtCForeLog.getText());
-            userDetails[9] = Double.parseDouble(this.txtCThumbLog.getText());
+            userDetails = getUserDetails();
 
             userDetailStr[0] = this.usernameLog.getText();
 
@@ -814,11 +861,15 @@ public class Login extends javax.swing.JFrame {
             User user = new User(userDetailStr[0], userDetailStr[1], userDetailStr[2], userDetailStr[3], userDetailStr[4], userDetailStr[5], userDetailStr[6], userDetailStr[7], userDetailStr[8], userDetailStr[9], userDetailStr[10]);
             if (AuthenticationController.checkUsername(userDetailStr[0], con)) {
                 if (AuthenticationController.checkData(user, con)) {
-                    JOptionPane.showMessageDialog(null, "Success ", "Success", JOptionPane.PLAIN_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Success ", "Success", JOptionPane.INFORMATION_MESSAGE);
 
                 } else {
                     JOptionPane.showMessageDialog(null, "Invalid Login ", "Invalid Login", JOptionPane.ERROR_MESSAGE);
                 }
+            } else {
+
+                JOptionPane.showMessageDialog(null, "Invalid Username ", "Invalid Username", JOptionPane.ERROR_MESSAGE);
+
             }
         } catch (NumberFormatException e) {
 
@@ -826,19 +877,8 @@ public class Login extends javax.swing.JFrame {
         } catch (SQLException ex) {
             Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
-            this.usernameLog.setText("");
-            this.txtLLittleLog.setText("");
-            this.txtLRingLog.setText("");
-            this.txtLMiddleLog.setText("");
-            this.txtLForeLog.setText("");
-            this.txtLThumbLog.setText("");
 
-            //Circumference of finger
-            this.txtCLittleLog.setText("");
-            this.txtCRingLog.setText("");
-            this.txtCMiddleLog.setText("");
-            this.txtCForeLog.setText("");
-            this.txtCThumbLog.setText("");
+            clearSignIn();
 
             try {
                 DatabaseHandler.closeConnection(con);
@@ -847,7 +887,6 @@ public class Login extends javax.swing.JFrame {
                 Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
-        //System.out.pri
 
 
     }//GEN-LAST:event_btnLoginActionPerformed
@@ -864,7 +903,7 @@ public class Login extends javax.swing.JFrame {
 
         Connection conn = DatabaseHandler.DBConnect();
 
-        double[] userDetail = new double[10];
+        Double[] userDetail = new Double[10];
         String[] userDetailStr = new String[11];
 
         try {
@@ -875,20 +914,9 @@ public class Login extends javax.swing.JFrame {
 
             } else {
 
-                //Length of fingers
                 userDetailStr[0] = this.usernameSign.getText();
-                userDetail[0] = Double.parseDouble(this.txtLLittleSign.getText());
-                userDetail[1] = Double.parseDouble(this.txtLRingSign.getText());
-                userDetail[2] = Double.parseDouble(this.txtLMiddleSign.getText());
-                userDetail[3] = Double.parseDouble(this.txtLForeSign.getText());
-                userDetail[4] = Double.parseDouble(this.txtLThumbSign.getText());
 
-                //Circumference of finger
-                userDetail[5] = Double.parseDouble(this.txtCLittleSign.getText());
-                userDetail[6] = Double.parseDouble(this.txtCRingSign.getText());
-                userDetail[7] = Double.parseDouble(this.txtCMiddleSign.getText());
-                userDetail[8] = Double.parseDouble(this.txtCForeSign.getText());
-                userDetail[9] = Double.parseDouble(this.txtCThumbSign.getText());
+                userDetail = getUserDetailSign();
 
                 for (int i = 0; i < 10; i++) {
                     userDetailStr[i + 1] = Double.toString(userDetail[i]);
@@ -913,27 +941,7 @@ public class Login extends javax.swing.JFrame {
             Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
 
-            this.usernameSign.setText("");
-            this.txtLLittleSign.setText("");
-            this.txtLLittleCon.setText("");
-            this.txtLRingSign.setText("");
-            this.txtLRingCon.setText("");
-            this.txtLMiddleSign.setText("");
-            this.txtLMiddleCon.setText("");
-            this.txtLForeSign.setText("");
-            this.txtLForeCon.setText("");
-
-            //Circumference of finger
-            this.txtCLittleSign.setText("");
-            this.txtCLittleCon.setText("");
-            this.txtCRingSign.setText("");
-            this.txtCRingCon.setText("");
-            this.txtCMiddleSign.setText("");
-            this.txtCMiddleCon.setText("");
-            this.txtCForeSign.setText("");
-            this.txtCForeCon.setText("");
-            this.txtCThumbSign.setText("");
-            this.txtCThumbCon.setText("");
+            clearSignUp();
 
             try {
                 DatabaseHandler.closeConnection(conn);
@@ -942,6 +950,82 @@ public class Login extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_btnSignUpActionPerformed
+
+    private void txtLLittleConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLLittleConFocusLost
+        if (!txtLLittleCon.getText().equals(txtLLittleSign.getText())) {
+
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtLLittleCon.setText("");
+        }
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtLLittleConFocusLost
+
+    private void txtLRingConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLRingConFocusLost
+        if (!txtLRingCon.getText().equals(txtLRingSign.getText())) {
+
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtLRingCon.setText("");
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_txtLRingConFocusLost
+
+    private void txtLMiddleConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLMiddleConFocusLost
+        if (!txtLMiddleCon.getText().equals(txtLMiddleSign.getText())) {
+
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtLMiddleCon.setText("");
+        }
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtLMiddleConFocusLost
+
+    private void txtLThumbConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLThumbConFocusLost
+        if (!txtLThumbCon.getText().equals(txtLThumbSign.getText())) {
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtLThumbCon.setText("");
+        }
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtLThumbConFocusLost
+
+    private void txtCLittleConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCLittleConFocusLost
+        if (!txtCLittleCon.getText().equals(txtCLittleSign.getText())) {
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtCLittleCon.setText("");
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCLittleConFocusLost
+
+    private void txtCRingConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCRingConFocusLost
+        if (!txtCRingCon.getText().equals(txtCRingSign.getText())) {
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtCRingCon.setText("");
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCRingConFocusLost
+
+    private void txtCMiddleConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCMiddleConFocusLost
+        if (!txtCMiddleCon.getText().equals(txtCMiddleSign.getText())) {
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtCMiddleCon.setText("");
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCMiddleConFocusLost
+
+    private void txtCForeConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCForeConFocusLost
+        if (!txtCForeCon.getText().equals(txtCForeSign.getText())) {
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtCForeCon.setText("");
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCForeConFocusLost
+
+    private void txtCThumbConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtCThumbConFocusLost
+        if (!txtCThumbCon.getText().equals(txtCThumbSign.getText())) {
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtCThumbCon.setText("");
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCThumbConFocusLost
+
+    private void txtLForeConFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtLForeConFocusLost
+        if (!txtCForeCon.getText().equals(txtCForeSign.getText())) {
+            JOptionPane.showMessageDialog(null, "Values doesn't match", "Value mismatch", JOptionPane.ERROR_MESSAGE);
+            txtCForeCon.setText("");
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_txtLForeConFocusLost
 
     /**
      * @param args the command line arguments
@@ -1051,5 +1135,84 @@ public class Login extends javax.swing.JFrame {
             flag = true;
         }
         return flag;
+    }
+
+    private void clearSignUp() {
+        this.usernameSign.setText("");
+        this.txtLLittleSign.setText("");
+        this.txtLLittleCon.setText("");
+        this.txtLRingSign.setText("");
+        this.txtLRingCon.setText("");
+        this.txtLMiddleSign.setText("");
+        this.txtLMiddleCon.setText("");
+        this.txtLForeSign.setText("");
+        this.txtLForeCon.setText("");
+        this.txtLThumbSign.setText("");
+        this.txtLThumbCon.setText("");
+
+        //Circumference of finger
+        this.txtCLittleSign.setText("");
+        this.txtCLittleCon.setText("");
+        this.txtCRingSign.setText("");
+        this.txtCRingCon.setText("");
+        this.txtCMiddleSign.setText("");
+        this.txtCMiddleCon.setText("");
+        this.txtCForeSign.setText("");
+        this.txtCForeCon.setText("");
+        this.txtCThumbSign.setText("");
+        this.txtCThumbCon.setText("");
+    }
+
+    private void clearSignIn() {
+        this.usernameLog.setText("");
+        this.txtLLittleLog.setText("");
+        this.txtLRingLog.setText("");
+        this.txtLMiddleLog.setText("");
+        this.txtLForeLog.setText("");
+        this.txtLThumbLog.setText("");
+
+        //Circumference of finger
+        this.txtCLittleLog.setText("");
+        this.txtCRingLog.setText("");
+        this.txtCMiddleLog.setText("");
+        this.txtCForeLog.setText("");
+        this.txtCThumbLog.setText("");
+    }
+
+    private Double[] getUserDetails() {
+
+        Double[] userDetails = new Double[10];
+
+        userDetails[0] = Double.parseDouble(this.txtLLittleLog.getText());
+        userDetails[1] = Double.parseDouble(this.txtLRingLog.getText());
+        userDetails[2] = Double.parseDouble(this.txtLMiddleLog.getText());
+        userDetails[3] = Double.parseDouble(this.txtLForeLog.getText());
+        userDetails[4] = Double.parseDouble(this.txtLThumbLog.getText());
+
+        //Circumference of finger
+        userDetails[5] = Double.parseDouble(this.txtCLittleLog.getText());
+        userDetails[6] = Double.parseDouble(this.txtCRingLog.getText());
+        userDetails[7] = Double.parseDouble(this.txtCMiddleLog.getText());
+        userDetails[8] = Double.parseDouble(this.txtCForeLog.getText());
+        userDetails[9] = Double.parseDouble(this.txtCThumbLog.getText());
+        return userDetails;
+    }
+
+    private Double[] getUserDetailSign() {
+        Double[] userDetail = new Double[10];
+
+        userDetail[0] = Double.parseDouble(this.txtLLittleSign.getText());
+        userDetail[1] = Double.parseDouble(this.txtLRingSign.getText());
+        userDetail[2] = Double.parseDouble(this.txtLMiddleSign.getText());
+        userDetail[3] = Double.parseDouble(this.txtLForeSign.getText());
+        userDetail[4] = Double.parseDouble(this.txtLThumbSign.getText());
+
+        //Circumference of finger
+        userDetail[5] = Double.parseDouble(this.txtCLittleSign.getText());
+        userDetail[6] = Double.parseDouble(this.txtCRingSign.getText());
+        userDetail[7] = Double.parseDouble(this.txtCMiddleSign.getText());
+        userDetail[8] = Double.parseDouble(this.txtCForeSign.getText());
+        userDetail[9] = Double.parseDouble(this.txtCThumbSign.getText());
+        return userDetail;
     }
 }
