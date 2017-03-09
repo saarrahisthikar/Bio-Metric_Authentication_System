@@ -923,7 +923,7 @@ public class Login extends javax.swing.JFrame {
                 }
 
                 if (AuthenticationController.checkUsername(userDetailStr[0], conn)) {
-                    JOptionPane.showMessageDialog(null, "Username already exists. enter another one", "Change Username", JOptionPane.WARNING_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Username already exists. Enter a new one", "Existing username", JOptionPane.WARNING_MESSAGE);
 
                 } else {
 
@@ -936,7 +936,7 @@ public class Login extends javax.swing.JFrame {
 
         } catch (NumberFormatException e) {
 
-            JOptionPane.showMessageDialog(null, "Values should integer ", "Type ", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Values should integer ", "Type Error ", JOptionPane.ERROR_MESSAGE);
         } catch (SQLException ex) {
             Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
         } finally {

@@ -1,8 +1,7 @@
 package biometrix_login;
 
 import java.sql.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -25,8 +24,11 @@ public class DatabaseHandler {
             Connection conn = DriverManager.getConnection(DB_URL + "/biometric_authentication", USER, PASS);
             return conn;
         } catch (Exception e) {
-            System.out.println(e);
+            JOptionPane.showMessageDialog(null, "Check connection", "Connection not found", JOptionPane.ERROR_MESSAGE);
+
+            System.exit(0);
             return null;
+
         }
     }
 
@@ -57,7 +59,7 @@ public class DatabaseHandler {
             preparedStatement.setString(2, user.getPassword());
             preparedStatement.executeUpdate();
         } catch (SQLException ex) {
-            Logger.getLogger(DatabaseHandler.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("SQL Error");
         }
 
     }
@@ -93,17 +95,23 @@ public class DatabaseHandler {
     }
 
     static void initialize() throws ClassNotFoundException, SQLException {
+        try {
+            Class.forName(JDBC_DRIVER);
+            Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
 
-        Class.forName(JDBC_DRIVER);
-        Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
+            System.out.println("check your connection");
 
-        String[] querySet = {"CREATE DATABASE IF NOT EXISTS biometric_authentication", "use biometric_authentication", "create table if not exists users(username varchar(255) primary key, biometric_pass varchar(255) not null)"};
+            String[] querySet = {"CREATE DATABASE IF NOT EXISTS biometric_authentication", "use biometric_authentication", "create table if not exists users(username varchar(255) primary key, biometric_pass varchar(255) not null)"};
 
-        for (String query : querySet) {
-            Statement stmt = conn.createStatement();
-            stmt.executeUpdate(query);
+            for (String query : querySet) {
+                Statement stmt = conn.createStatement();
+                stmt.executeUpdate(query);
+            }
+            conn.close();
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "Check connection", "Connection not found", JOptionPane.ERROR_MESSAGE);
+            System.exit(0);
         }
-        conn.close();
     }
 
 }
